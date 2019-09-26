@@ -62,3 +62,12 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.projectsGrid {
+  display: flex;
+}
+
+.cardButton {
+  display:flex;
+  justify-content: space-between;
+}
