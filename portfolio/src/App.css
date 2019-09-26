@@ -1,3 +1,5 @@
+/* Landing Page CSS */
+
 .headerColor {
    background: #8E0E00;  /* fallback for old browsers */
    background: -webkit-linear-gradient(left, #1F1C18, #8E0E00);
@@ -63,11 +65,56 @@
   padding: 8px;
 }
 
+/* Landing Page CSS End */
+
+/* Projects Page CSS */
+
 .projectsGrid {
   display: flex;
 }
 
-.cardButton {
-  display:flex;
-  justify-content: space-between;
+/* Projects Page CSS End */
+
+/* Contact Page CSS  */
+
+.contactBody {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
 }
+
+.contactGrid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: #ffffff;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.contactGrid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contactGrid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contactGrid hr {
+  border-top: 5px dotted black;
+  margin: auto;
+  width: 50%;
+}
+
+.contactList i {
+  font-size: 66px;
+  padding-right: 5rem;
+
+}
+
+/* Contact Page CSS End */
