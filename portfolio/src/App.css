@@ -116,5 +116,14 @@
   padding-right: 5rem;
 
 }
-
 /* Contact Page CSS End */
+
+/* Resume Page CSS */
+
+.resumeRightCol {
+  background: #27221f;
+  color: #ffffff;
+  padding: 2em;
+}
+
+/* Resume Page CSS End */
